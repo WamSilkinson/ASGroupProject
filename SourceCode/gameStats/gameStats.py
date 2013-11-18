@@ -9,7 +9,7 @@ class GameStats():
         self.startTime = time.time()
         self.error = ''
         # killCash is a dictionary so self.killCash('Dwarf') returns 1
-        self.killCash = {'Dwarf': 1, 'Runner': 2}
+        self.killCash = {'Dwarf': 20, 'Runner': 30}
         self.towerCost = {'Tower1': 100, 'Tower2': 200}
         self.mobKills  = {'Dwarf':0,'Runner':0}
         self.level = None
